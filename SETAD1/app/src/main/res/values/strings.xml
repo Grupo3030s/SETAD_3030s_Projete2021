@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SETAD1</string>
+    <string name="setad">SETAD</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="menuDeTrabalho">Menu de Trabalho</string>
+    <string name="projetos">Projetos</string>
+    <string name="todo">TODO</string>
+    <string name="voltarConfig">Voltar</string>
+    <string name="voltarMenu">Voltar</string>
+    <string name="voltarProjetos">Voltar</string>
+    <string name="voltarSobre">Voltar</string>
+</resources>
