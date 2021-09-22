@@ -9,6 +9,11 @@
         <entry key="..\:/Users/Rosely/Desktop/SETAD1/app/src/main/res/layout/activity_menu_de_trabalho.xml" value="0.19701086956521738" />
         <entry key="..\:/Users/Rosely/Desktop/SETAD1/app/src/main/res/layout/activity_projetos.xml" value="0.19701086956521738" />
         <entry key="..\:/Users/Rosely/Desktop/SETAD1/app/src/main/res/layout/activity_sobre.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/tulio/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_configuracoes.xml" value="0.1" />
+        <entry key="..\:/Users/tulio/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/tulio/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_menu_de_trabalho.xml" value="0.1" />
+        <entry key="..\:/Users/tulio/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_projetos.xml" value="0.1" />
+        <entry key="..\:/Users/tulio/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_sobre.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -17,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
   </component>
 </project>

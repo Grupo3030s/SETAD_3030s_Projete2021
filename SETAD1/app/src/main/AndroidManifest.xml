@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SETAD1">
         <activity
-            android:name=".Projetos"
+            android:name=".projetos"
             android:exported="true" />
         <activity
-            android:name=".Sobre"
+            android:name=".sobre"
             android:exported="true" />
         <activity
-            android:name=".Configuracoes"
+            android:name=".configuracoes"
             android:exported="true" />
         <activity
             android:name=".menuDeTrabalho"
