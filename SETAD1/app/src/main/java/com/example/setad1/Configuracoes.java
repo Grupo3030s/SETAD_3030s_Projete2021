@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class configuracoes extends AppCompatActivity {
+public class Configuracoes extends AppCompatActivity {
 
     Button botaoVoltar2;
     @Override
