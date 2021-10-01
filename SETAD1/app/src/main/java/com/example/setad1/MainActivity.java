@@ -1,7 +1,9 @@
 package com.example.setad1;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -96,8 +98,31 @@ public class MainActivity extends AppCompatActivity {
         botaoSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                exibirconfirmacao();
             }
         });
     }
+
+    public void exibirconfirmacao(){
+        AlertDialog.Builder msgBox = new AlertDialog.Builder(this);
+        msgBox.setTitle("Sair");
+        msgBox.setMessage("Tem certeza que deseja sair do aplicativo?");
+        msgBox.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+        msgBox.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Intent MainActivity = new Intent(getApplicationContext(), menuDeTrabalho.class);
+                startActivity(MainActivity);
+                hideSystemUI();
+            }
+        });
+        msgBox.show();
+
+    }
+
 }
