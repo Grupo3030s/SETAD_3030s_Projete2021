@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent projetos = new Intent(getApplicationContext(), projetos.class);
+                Intent projetos = new Intent(getApplicationContext(), Projetos.class);
                 startActivity(projetos);
                 hideSystemUI();
 
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent configuracoes = new Intent(getApplicationContext(), configuracoes.class);
+                Intent configuracoes = new Intent(getApplicationContext(), Configuracoes.class);
                 startActivity(configuracoes);
 
             }
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent sobre = new Intent(getApplicationContext(), sobre.class);
+                Intent sobre = new Intent(getApplicationContext(), Sobre.class);
                 startActivity(sobre);
                 hideSystemUI();
 
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         msgBox.setNegativeButton("Não", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Intent MainActivity = new Intent(getApplicationContext(), menuDeTrabalho.class);
+                Intent MainActivity = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(MainActivity);
                 hideSystemUI();
             }

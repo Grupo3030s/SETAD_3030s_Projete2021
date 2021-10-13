@@ -31,9 +31,11 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="62dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/o_projeto_foi_desenvolvido_pela_equipe_jo_o_vitor_lima_da_silveira_marco_ant_nio_pereira_alves_fonseca_t_lio_henrique_gon_alves_sim_es_virg_nia_let_cia_afonso"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,8 +46,10 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="383dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/como_um_trabalho_para_a_escola_t_cnica_de_eletr_nica_no_ano_de_2021"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
