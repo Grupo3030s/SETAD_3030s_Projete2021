@@ -3,9 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout-land/activity_menu_de_trabalh.xml" value="0.1" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_app_bar.xml" value="0.22" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_configuracoes.xml" value="0.18" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_menu_de_trabalho.xml" value="0.17" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_projetos.xml" value="0.1" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/activity_sobre.xml" value="0.33" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/app_bar_app_bar.xml" value="0.12" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/app_bar_menu_de_trabalho.xml" value="0.1" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/content_app_bar.xml" value="0.18" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/fragment_gallery.xml" value="0.15" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/fragment_slideshow.xml" value="0.18" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/nav_header_app_bar.xml" value="0.22" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/menu/app_bar.xml" value="0.33" />
         <entry key="..\:/Users/Rosely/Desktop/SETAD1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/Rosely/Desktop/SETAD1/app/src/main/res/layout/activity_configuracoes.xml" value="0.19701086956521738" />
         <entry key="..\:/Users/Rosely/Desktop/SETAD1/app/src/main/res/layout/activity_main.xml" value="0.22" />
