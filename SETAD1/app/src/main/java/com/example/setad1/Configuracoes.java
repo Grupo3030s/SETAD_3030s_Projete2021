@@ -1,6 +1,7 @@
 package com.example.setad1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,8 @@ import android.widget.Button;
 public class Configuracoes extends AppCompatActivity {
 
     Button botaoVoltar2;
+    DrawerLayout drawerLayout;
+
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
@@ -44,6 +47,7 @@ public class Configuracoes extends AppCompatActivity {
         setTitle("Configurações Solicitado");
 
         botaoVoltar2=findViewById(R.id.botaoVoltar2);
+        drawerLayout=findViewById(R.id.drawer_layout);
 
         botaoVoltar2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,5 +56,41 @@ public class Configuracoes extends AppCompatActivity {
 
             }
         });
+    }
+    public void ClickMenu(View view){
+
+        menuDeTrabalho.openDrawer(drawerLayout);
+    }
+
+    public void ClickLogo(View view){
+
+        menuDeTrabalho.closeDrawer(drawerLayout);
+    }
+
+    public void ClickHome(View view){
+
+        menuDeTrabalho.redirectActivity(this,menuDeTrabalho.class);
+    }
+
+    public void ClickDashboard(View view){
+
+        recreate();
+    }
+
+    public void ClickAboutUs(View view){
+
+        menuDeTrabalho.redirectActivity(this,Sobre.class);
+    }
+
+    public void ClickLogout(View view){
+
+        menuDeTrabalho.logout(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        menuDeTrabalho.closeDrawer(drawerLayout);
     }
 }
