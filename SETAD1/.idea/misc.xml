@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
@@ -20,6 +22,8 @@
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/fragment_gallery.xml" value="0.15" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/fragment_slideshow.xml" value="0.18" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/main_nav_drawer.xml" value="0.18" />
+        <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/menu_de_trabalho_toolbar.xml" value="0.1" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/layout/nav_header_app_bar.xml" value="0.22" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
         <entry key="..\:/Users/Rosely/Desktop/Projete/SETAD_3030s_Projete2021/SETAD1/app/src/main/res/menu/app_bar.xml" value="0.33" />
