@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickHome"
+        android:onClick="Addresistor"
         android:orientation="horizontal">
 
         <ImageView
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickDashboard"
+        android:onClick="Addcapacitor"
         android:orientation="horizontal">
 
         <ImageView
@@ -61,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickAboutUs"
+        android:onClick="Adddiodo"
         android:orientation="horizontal">
 
         <ImageView
@@ -75,14 +75,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickLogout"
+        android:onClick="Addledc"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_marginEnd="48dp"
-            android:rotation="-91"
             android:src="@drawable/ledc" />
     </LinearLayout>
 
@@ -90,22 +89,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickLogout"
+        android:onClick="Addvcc"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="29dp"
             android:layout_height="56dp"
             android:layout_marginEnd="48dp"
-            android:backgroundTint="#804949"
             android:src="@drawable/vcc" />
-</LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickLogout"
+        android:onClick="Addvccc"
         android:orientation="horizontal">
 
         <ImageView
@@ -119,7 +117,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickLogout"
+        android:onClick="Addgnd"
         android:orientation="horizontal">
 
         <ImageView

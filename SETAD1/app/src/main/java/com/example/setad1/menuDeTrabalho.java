@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class menuDeTrabalho extends AppCompatActivity {
 
@@ -71,47 +72,26 @@ public class menuDeTrabalho extends AppCompatActivity {
         }
     }
 
-    public void ClickHome(View view){
-        recreate();
+    public void Addresistor(View view){
+        new drag.CriarImagem(R.drawable.resistor,1,150,150,150,150);
     }
-
-    public void ClickDashboard(View view){
-        redirectActivity( this,Configuracoes.class);
+    public void Addcapacitor(View view){
+        new drag.CriarImagem(R.drawable.capacitor,1,150,150,150,150 );
     }
-    public void ClickAboutUs(View view){
-        redirectActivity( this,Sobre.class);
+    public void Adddiodo(View view){
+        new drag.CriarImagem(R.drawable.diodo,1,150,150,150,150);
     }
-    public void ClickLogout(View view){
-        logout( this);
+    public void Addledc(View view){
+        new drag.CriarImagem(R.drawable.ledc,1,150,150,150,150);
     }
-
-    public static void logout(Activity activity) {
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setTitle("Logout");
-        builder.setMessage("Are you sure you want to logout ?");
-        builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
-
-            @Override
-            public void onClick(DialogInterface dialogInterface, int which) {
-                activity.finishAffinity();
-                System.exit(0);
-            }
-        });
-
-        builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
-            }
-        });
-        builder.show();
+    public void Addvcc(View view){
+        new drag.CriarImagem(R.drawable.vcc,1,150,150,150,150);
     }
-
-   public static void redirectActivity(Activity activity, Class aClass) {
-        Intent intent = new Intent(activity,aClass);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        activity.startActivity(intent);
+    public void Addvccc(View view){
+        new drag.CriarImagem(R.drawable.vccc,1,150,150,150,150);
+    }
+    public void Addgnd(View view){
+        new drag.CriarImagem(R.drawable.gnd,1,150,150,150,150);
     }
 
     @Override
