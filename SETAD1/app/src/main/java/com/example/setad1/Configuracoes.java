@@ -2,15 +2,12 @@ package com.example.setad1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class Configuracoes extends AppCompatActivity {
-
     Button botaoVoltar2;
-    DrawerLayout drawerLayout;
 
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
@@ -19,24 +16,14 @@ public class Configuracoes extends AppCompatActivity {
             hideSystemUI();
         }
     }
-
     private void hideSystemUI() {
         View decorView = getWindow().getDecorView();
-        decorView.setSystemUiVisibility(
-                View.SYSTEM_UI_FLAG_IMMERSIVE
-                        | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                        | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                        | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                        | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                        | View.SYSTEM_UI_FLAG_FULLSCREEN);
+        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_IMMERSIVE | View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN);
     }
 
     private void showSystemUI() {
         View decorView = getWindow().getDecorView();
-        decorView.setSystemUiVisibility(
-                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                        | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                        | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
     }
 
     @Override
@@ -44,53 +31,12 @@ public class Configuracoes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_configuracoes);
 
-        setTitle("Configurações Solicitado");
-
         botaoVoltar2=findViewById(R.id.botaoVoltar2);
-        drawerLayout=findViewById(R.id.drawer_layout);
-
         botaoVoltar2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
-
             }
         });
-    }
-    public void ClickMenu(View view){
-
-        menuDeTrabalho.openDrawer(drawerLayout);
-    }
-
-    public void ClickLogo(View view){
-
-        menuDeTrabalho.closeDrawer(drawerLayout);
-    }
-
-    public void ClickHome(View view){
-
-        menuDeTrabalho.redirectActivity(this,menuDeTrabalho.class);
-    }
-
-    public void ClickDashboard(View view){
-
-        recreate();
-    }
-
-    public void ClickAboutUs(View view){
-
-        menuDeTrabalho.redirectActivity(this,Sobre.class);
-    }
-
-    public void ClickLogout(View view){
-
-        menuDeTrabalho.logout(this);
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        menuDeTrabalho.closeDrawer(drawerLayout);
     }
 }

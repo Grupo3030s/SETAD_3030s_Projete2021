@@ -19,13 +19,13 @@
     <include
         layout="@layout/menu_de_trabalho_toolbar"/>
 
-     <TextView
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
-         android:text="Menu de Trabalho"
-         android:textSize="50dp"
-         android:textStyle="bold"
-         android:textColor="636363"/>
+        <TextView
+            android:layout_width="452dp"
+            android:layout_height="match_parent"
+            android:text="Menu de Trabalho"
+            android:textColor="#00BCD4"
+            android:textSize="50dp"
+            android:textStyle="bold" />
     </LinearLayout>
     
     <RelativeLayout
@@ -34,23 +34,26 @@
         android:layout_gravity="start"
         android:background="@android:color/white">
 
-        <include
-            layout="@layout/main_nav_drawer"/>
+        <include layout="@layout/main_nav_drawer" />
 
     </RelativeLayout>
 
-   
 
-    <Button
-        android:id="@+id/botaoVoltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="18dp"
-        android:background="#00796B"
-        android:text="@string/voltarMenu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/botaoVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="18dp"
+            android:background="#00796B"
+            android:text="@string/voltarMenu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
 

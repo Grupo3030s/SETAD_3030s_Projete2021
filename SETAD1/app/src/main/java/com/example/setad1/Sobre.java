@@ -10,7 +10,6 @@ import android.widget.Button;
 public class Sobre extends AppCompatActivity {
 
     Button botaoVoltar4;
-    DrawerLayout drawerLayout;
 
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
@@ -46,51 +45,12 @@ public class Sobre extends AppCompatActivity {
         setTitle("Sobre Solicitado");
 
         botaoVoltar4=findViewById(R.id.botaoVoltar4);
-        drawerLayout=findViewById(R.id.drawer_layout);
 
         botaoVoltar4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
-
             }
         });
-    }
-
-    public void ClickMenu(View view){
-
-        menuDeTrabalho.openDrawer(drawerLayout);
-    }
-
-    public void ClickLogo(View view){
-
-        menuDeTrabalho.closeDrawer(drawerLayout);
-    }
-
-    public void ClickHome(View view){
-
-        menuDeTrabalho.redirectActivity(this,menuDeTrabalho.class);
-    }
-
-    public void ClickAboutUs(View view){
-
-        recreate();
-    }
-
-    public void ClickDashboard(View view){
-
-        menuDeTrabalho.redirectActivity(this,Configuracoes.class);
-    }
-
-    public void ClickLogout(View view){
-
-        menuDeTrabalho.logout(this);
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        menuDeTrabalho.closeDrawer(drawerLayout);
     }
 }
